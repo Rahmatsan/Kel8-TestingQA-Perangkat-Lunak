@@ -1,0 +1,10 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
