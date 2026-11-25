@@ -1,4 +1,4 @@
-# Testing dan Quality Assurance Perangkat Lunak
+# Testing dan Quality Perangkat Lunak
 
 Repository tugas Semester 7 untuk menyimpan dokumen perencanaan, pelaksanaan, bukti, dan laporan akhir pengujian perangkat lunak.
 
