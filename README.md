@@ -1,53 +1,46 @@
-# Testing dan Quality Assurance Perangkat Lunak
+# Software Testing & Quality Assurance: GPX
 
-**Kelompok 8 | Semester 7 | Teknik Informatika, Universitas Pamulang**
+**Kelompok 8 · Teknik Informatika · Semester 7 · Universitas Pamulang**
 
-Proyek ini mendokumentasikan pengujian *End-to-End* pada aplikasi **GPX (Gudang Pembangunan Excellence)**, dari halaman Login sampai Logout. Berkas disusun mengikuti format empat folder dari contoh kelas, dengan pembahasan yang disesuaikan dengan materi dosen.
+Repository ini menyimpan perencanaan dan dokumentasi pengujian aplikasi web **GPX (Gudang Pembangunan Excellence)**, mengikuti materi mata kuliah Testing dan QA Perangkat Lunak (Pertemuan 1–16). Susunan dan jenis dokumen terinspirasi dari contoh repository kelas, dengan isi pengujian yang disesuaikan ke GPX.
 
-**Objek aplikasi:** https://gudangpembangunan.up.railway.app/dashboard
+**Objek:** https://gudangpembangunan.up.railway.app/dashboard  
+**Batas E2E:** mulai pada Login Page, selesai pada Logout / End Session.
 
-## Struktur repository
+## Status pengerjaan
 
-```text
-Kel8-TestingQA-Perangkat-Lunak/
-├── ISO Standar IEEE 2026/
-│   └── README.md
-├── objek-testing/
-│   └── README.md
-├── Hasil-Dokumentasi testing/
-│   ├── 01_Test_Plan.md
-│   ├── 02_WhiteBox_Flow_Analysis.md
-│   ├── 03_Test_Cases.md
-│   ├── 04_Bug_Report.md
-│   ├── 05_Test_Report.md
-│   ├── screenshots/
-│   │   └── README.md
-│   └── lampiran/
-│       ├── 03_Test_Cases.csv
-│       ├── 06_UAT_Checklist.md
-│       ├── 07_Security_API_Performance.md
-│       └── 08_Traceability_Materi.md
-├── Konsultasi Testing/
-│   └── log_konsultasi.md
-├── .gitignore
-└── README.md
-```
+| Bagian | Status |
+|---|---|
+| Inventaris awal dan Test Plan | Disiapkan |
+| Test Scenario, Case dan Decision Table | Disiapkan |
+| Rancangan use case, alur dan white-box | Disiapkan, belum diuji kode |
+| Automation | Contoh smoke test tersedia, belum dieksekusi |
+| Bukti screenshot | Belum dikumpulkan |
+| Pengujian E2E internal | NOT RUN (perlu akun/izin) |
+| PASS/FAIL | Belum tersedia |
 
-## Tahapan pekerjaan
-1. **Test Plan:** tujuan, ruang lingkup, metode, entry/exit criteria dan risiko pengujian.
-2. **White Box / Flow Analysis:** alur proses; pengujian struktur kode baru dapat dinyatakan dilakukan jika akses kode dan hasil eksekusi tersedia.
-3. **Test Cases:** 105 skenario kandidat untuk 21 area GPX, dengan hasil aktual dan status yang belum diisi.
-4. **Bug Report:** catatan defect hanya berdasarkan pengujian aktual yang dapat direproduksi.
-5. **Test Report:** ringkasan hasil pengujian dan keterbatasan; belum menyatakan web lulus QA.
+Terdapat **105 test case kandidat**. Jumlah tersebut bukan persyaratan minimum dari dosen, dan beberapa modul/aturan perlu divalidasi lebih dahulu setelah login.
 
-**Lampiran** menyimpan matriks CSV yang dapat dibuka di spreadsheet, UAT, rencana pengujian API/keamanan/performa, dan kaitan dengan materi dosen. Lampiran dipisahkan agar **lima dokumen utama tampil sama urutannya** seperti contoh kelompok.
+## Dokumen utama
 
-## Status pengujian
+| Folder atau berkas | Tujuan |
+|---|---|
+| [System Overview](System%20Overview.md) | Profil objek, alur dan batasan |
+| [Test Plan](Test%20Plan/Test%20Plan.md) | Tujuan, scope, strategi dan kriteria |
+| [Test Scenario](Test%20Scenario/Test%20Scenario.md) | Skenario positif/negatif |
+| [Matriks dan Use Case](Matriks%20dan%20Use%20Case/Matriks%20dan%20Use%20Case.md) | Matriks role dan use case |
+| [System Flowchart](System%20Flowchart/login-process-flow.md) | Alur login, modul dan logout |
+| [Test Case](Test%20Case/README.md) | Metode dan tautan CSV 105 kasus |
+| [White-box Testing](White-box%20Testing/README.md) | Rencana basis path, menunggu source code |
+| [Test Evidence](Test%20Evidence/README.md) | Panduan screenshot |
+| [Bug Report](Bug%20Report/README.md) | Pencatatan defect |
+| [Test Report](Test%20Report/README.md) | Ringkasan hasil sementara |
+| [Automation Testing](Automation%20Testing/README.md) | Smoke test publik dan batasan alat |
+| [Regression](Regression/Regression%20Record.md) | Rekap retest |
+| [UAT](UAT/UAT%20Plan%20dan%20Hasil.md) | Validasi penerimaan pengguna |
+| [Pemetaan Materi](Pemetaan%20Materi.md) | Kaitan ke 16 pertemuan kuliah |
 
-Rencana dan instrumen sudah tersedia; **105 test case saat ini NOT RUN**. Halaman login dapat dilihat secara publik, tetapi pengujian dashboard dan modul internal membutuhkan akun uji serta izin pemilik. Belum ada screenshot hasil eksekusi yang diverifikasi. File `screenshots/README.md` hanya panduan penyimpanan bukti.
+Folder **Hasil-Dokumentasi testing/** tetap dipertahankan agar laporan lima berkas inti dan matriks CSV yang sebelumnya dibuat tidak hilang.
 
-## Catatan penggunaan
-
-Folder “ISO Standar IEEE 2026” mengikuti penamaan contoh, **bukan** nama atau tahun publikasi sebuah standar resmi. Rujukan yang dibahas di dalamnya menyebut edisi yang benar.
-
-Repository bersifat **Public**. Surat izin pengujian, data sensitif, kredensial, token, dan tanda tangan **tidak diunggah**.
+## Aturan
+Laporan memisahkan rancangan, observasi, dan hasil tes nyata. Pengujian yang memodifikasi data hanya pada sandbox dengan izin. Jangan unggah surat izin bertanda tangan, akun pribadi, token, data karyawan, atau informasi bisnis internal ke repository Public.
