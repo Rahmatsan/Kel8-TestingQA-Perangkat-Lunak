@@ -1,7 +1,17 @@
-# Panduan bukti pengujian
+# Bukti visual pengujian GPX
 
-Folder ini disiapkan untuk **bukti aktual**. Belum ada 18 screenshot atau bukti lain yang dinyatakan telah diambil.
+## Screenshot halaman publik
+Screenshot berikut diambil melalui browser otomatis **dari halaman asli GPX**, tanpa login dan tanpa mengirim kredensial. Proses pengambilan ada di [capture-gpx-public.mjs](../../.github/scripts/capture-gpx-public.mjs) dan [workflow](../../.github/workflows/capture-gpx-public.yml).
 
-Gunakan nama berkas `GPX-E2E-001_2026-XX-XX_login.png`, lalu isi kolom Evidence pada CSV. Tiap gambar harus cukup menunjukkan expected vs actual tanpa data sensitif.
+| ID | Halaman | Desktop | Mobile | Batasan |
+|---|---|---|---|---|
+| VIS-001 | Login publik | [Screenshot](GPX-LOGIN-public-desktop.png) | [Screenshot](GPX-LOGIN-public-mobile.png) | Bukti UI publik, bukan bukti login berhasil |
 
-Sebelum upload, tutupi nama karyawan, NIK, nomor telepon, email pribadi, harga internal yang rahasia, token, URL bertanda key, dan informasi sesi. Bukti kerentanan dilaporkan privat kepada pemilik, bukan diumumkan pada repository publik.
+![Halaman Login GPX di desktop](GPX-LOGIN-public-desktop.png)
+
+![Halaman Login GPX di perangkat mobile](GPX-LOGIN-public-mobile.png)
+
+**Perhatian:** tautan gambar baru akan aktif setelah workflow pengambilan screenshot berhasil dan mengunggah kedua file PNG. Jika tidak muncul, lihat status di tab Actions.
+
+## Bukti pengujian internal
+Gambar dashboard sesudah login, modul Training, Consumables, laporan dan Logout hanya dapat dijadikan bukti setelah pengujian sah dengan akun uji. Jangan mengunggah screenshot memuat NIK, identitas karyawan, transaksi asli, token, atau informasi bisnis sensitif. Bukti internal belum tersedia dan status test case terkait tetap NOT RUN.

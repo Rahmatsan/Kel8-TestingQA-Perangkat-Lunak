@@ -9,6 +9,12 @@
 
 GPX adalah aplikasi web yang dipakai untuk menampilkan ringkasan operasional dan sejumlah fungsi training, rekap personel, absensi, transaksi consumables, serta aset. Tujuan pengujian Kelompok 8 adalah memeriksa alur pengguna sah secara E2E melalui menu yang benar-benar tersedia untuk akun uji.
 
+## Tampilan halaman Login GPX
+
+![Antarmuka Login GPX](../Hasil-Dokumentasi%20testing/screenshots/GPX-LOGIN-public-desktop.png)
+
+*Gambar: Halaman Login publik GPX, tangkapan browser otomatis tanpa masuk ke sistem. Gambar baru tersedia setelah workflow Actions sukses.*
+
 ## Fakta yang sudah dapat diperiksa tanpa akun
 Login GPX menampilkan formulir Username dan Password. Akses langsung ke dashboard tanpa sesi memerlukan login.
 

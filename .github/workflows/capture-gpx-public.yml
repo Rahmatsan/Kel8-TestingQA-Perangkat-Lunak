@@ -1,0 +1,37 @@
+name: Capture GPX public screenshots
+on:
+  push:
+    paths:
+      - '.github/workflows/capture-gpx-public.yml'
+      - '.github/scripts/capture-gpx-public.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright
+        run: |
+          npm install --no-save playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Screenshot public login (desktop and mobile)
+        run: node .github/scripts/capture-gpx-public.mjs
+      - name: Commit original screenshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "Hasil-Dokumentasi testing/screenshots/GPX-LOGIN-public-desktop.png" "Hasil-Dokumentasi testing/screenshots/GPX-LOGIN-public-mobile.png"
+          if git diff --cached --quiet; then
+            echo "No image changes."
+          else
+            git commit -m "Dokumentasi visual halaman Login GPX [skip ci]"
+            git push
+          fi
