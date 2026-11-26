@@ -1,5 +1,7 @@
 # Test Evidence GPX
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 Simpan hanya bukti yang benar-benar dihasilkan ketika pengujian berlangsung. Setiap screenshot harus memiliki Test Case ID yang sesuai dengan matriks.
 
 | Grup bukti | Contoh nama file | Keterangan |

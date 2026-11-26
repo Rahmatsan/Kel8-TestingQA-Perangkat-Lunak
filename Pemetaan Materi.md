@@ -1,5 +1,7 @@
 # Pemetaan Materi Kuliah dan Penerapan GPX
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 | Pertemuan | Topik | Dokumen yang terkait | Status |
 |---:|---|---|---|
 | 1 | Pengantar Testing & QA | System Overview dan README | Dirancang |

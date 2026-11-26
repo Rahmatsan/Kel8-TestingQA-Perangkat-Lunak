@@ -1,5 +1,7 @@
 # System Flowchart: Login dan Logout GPX
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 Diagram berikut bersifat logis; diambil dari perilaku aplikasi yang diharapkan, bukan reverse engineering source code GPX.
 
 ```mermaid

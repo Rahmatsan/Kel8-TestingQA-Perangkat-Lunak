@@ -1,5 +1,7 @@
 # White-box Testing GPX: Metodologi dan Status
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 White-box mengharuskan penguji membaca kode yang sesuai dengan versi aplikasi yang diuji. Screenshot UI dan flowchart pengguna tidak cukup untuk menghitung Cyclomatic Complexity atau branch coverage.
 
 Tahapan yang direncanakan:

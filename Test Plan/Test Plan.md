@@ -1,5 +1,7 @@
 # Test Plan GPX
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 | Metadata | Isi |
 |---|---|
 | Dokumen | TP-GPX-01 |

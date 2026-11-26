@@ -1,5 +1,7 @@
 # System Overview: GPX
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 ## Identitas objek
 
 | Aspek | Keterangan |

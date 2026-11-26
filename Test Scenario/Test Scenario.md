@@ -1,5 +1,7 @@
 # TEST SCENARIO: GPX
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 **Objek:** GPX | **Metode utama:** Black-box dan pengujian sistem E2E | **Status:** RANCANGAN
 
 Setiap skenario di bawah diturunkan menjadi test case. Positif berarti kondisi yang seharusnya diterima; negatif berarti kondisi yang harus ditolak/ditangani. Skenario pada modul yang belum diverifikasi tetap dianggap kandidat.

@@ -1,5 +1,7 @@
 # Test Case GPX
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 Gunakan [105 Test Case CSV](../Hasil-Dokumentasi%20testing/lampiran/03_Test_Cases.csv) sebagai matriks induk dan isi kolom Actual Result, Status, Evidence setelah pengujian nyata.
 
 **Kelompok pengujian:** Autentikasi, Dashboard, Training, Manpower, Absensi, Overtime, B2C, Gojek, Consumables, Aset, FIFO, Daily Worker, Logout.
