@@ -1,10 +1,10 @@
-# Referensi standar dan literatur QA
+# Referensi ISO / IEEE
 
-Folder ini mengikuti penamaan contoh dari dosen/kelompok lain. **Nama folder tidak berarti ada standar ISO/IEEE edisi 2026 yang khusus berupa template Test Plan.**
+Nama folder ini mengikuti pola repository contoh kelas, **bukan pernyataan bahwa ada satu standar bernama “ISO Standar IEEE 2026”**.
 
-Acuan yang relevan:
-- ISO/IEC/IEEE 29119-3:2021, *Software Testing — Part 3: Test Documentation* (struktur dokumentasi pengujian).
-- ISO/IEC/IEEE 29119-5:2024, *Keyword-Driven Testing* (jika pengujian otomatis berbasis keyword digunakan).
-- OWASP Web Security Testing Guide, untuk inspirasi uji autentikasi dan session management yang diizinkan.
+Referensi metodologi yang digunakan:
+- ISO/IEC/IEEE **29119-3:2021**: dokumentasi pengujian perangkat lunak (test plan, case, result/report).
+- ISO/IEC **25010**: model kualitas produk perangkat lunak (gunakan edisi yang benar-benar diperoleh dan dikutip).
+- Materi kuliah **Testing dan QA Perangkat Lunak** Pertemuan 1–16, Ahmad Fauzi, Universitas Pamulang.
 
-Simpan di sini hanya referensi yang boleh didistribusikan atau tautan ke sumber resmi. **Jangan mengunggah PDF standar berbayar berlisensi ke repo publik.**
+Jangan unggah PDF standar berbayar tanpa hak redistribusi. Dokumen pengujian dalam repository ini adalah **adaptasi untuk tugas akademik**, bukan salinan template resmi yang disahkan IEEE.

@@ -1,9 +1,9 @@
-# Log Konsultasi Testing & QA
+# Log Konsultasi Testing dan QA
 
-Isi setiap pertemuan dosen/pembimbing sesuai kejadian sebenarnya.
+Isi hanya setelah konsultasi benar-benar berlangsung. Informasi berikut sengaja dikosongkan agar tidak merekayasa pertemuan dengan dosen.
 
-| No | Tanggal | Pembimbing | Topik | Arahan / Revisi | Tindak Lanjut | Status |
-|---|---|---|---|---|---|---|
-| 1 | - | - | - | - | - | Belum diisi |
+| Tanggal | Media / pertemuan | Materi dibahas | Masukan dosen | Tindak lanjut | Status |
+|---|---|---|---|---|---|
+| (diisi setelah konsultasi) | | | | | |
 
-Jangan mencatat konsultasi yang belum terjadi seolah sudah dilakukan.
+Catatan yang harus dibawa: scope GPX Login–Logout, daftar area uji 21 kandidat, matriks 105 test case, batasan white-box, persetujuan pemilik, dan kebutuhan bukti.

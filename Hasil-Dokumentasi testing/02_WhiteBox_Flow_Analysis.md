@@ -1,31 +1,41 @@
-# 02. White-Box / Flow Analysis — GPX
+# 02. Analisis Alur dan Rencana White Box GPX
 
-**Status:** PERENCANAAN, bukan hasil code review.
+## Kedudukan analisis
+Diagram ini adalah **model alur pengguna** yang perlu dikonfirmasi saat pengujian. Ini bukan bukti bahwa kode sumber telah diaudit atau seluruh branch telah tercakup. Teknik white-box pada Pertemuan 3 memerlukan akses kode, fungsi yang diuji, dan bukti statement/branch/path coverage.
 
-## Alur konseptual E2E
 ```mermaid
 flowchart TD
-    A[Login Page] --> B{Kredensial valid?}
-    B -- Tidak --> C[Pesan kesalahan]
-    C --> A
-    B -- Ya --> D[Dashboard]
-    D --> E[Pilih modul sesuai role]
-    E --> F[Baca / isi data dummy]
-    F --> G{Validasi berhasil?}
-    G -- Tidak --> H[Pesan validasi dan perbaikan]
+    A[Mulai: buka GPX] --> B{Sesi aktif?}
+    B -- Tidak --> C[Form login]
+    C --> D{Kredensial valid?}
+    D -- Tidak --> E[Pesan kesalahan]
+    E --> C
+    D -- Ya --> F[Dashboard]
+    B -- Ya --> F
+    F --> G{Menu diizinkan role?}
+    G -- Tidak --> H[Akses ditolak / menu disembunyikan]
     H --> F
-    G -- Ya --> I[Simpan / lihat hasil]
-    I --> J[Logout]
-    J --> K[End Session]
-    K --> L{Akses ulang URL terlindungi?}
-    L -- Diblokir --> M[Expected: kembali ke login]
+    G -- Ya --> I[Buka modul]
+    I --> J{Ada input atau filter?}
+    J -- Ya --> K[Masukkan data dummy / filter]
+    K --> L{Validasi sesuai aturan?}
+    L -- Tidak --> M[Pesan validasi]
+    M --> K
+    L -- Ya --> N[Tampilkan hasil / simpan di sandbox]
+    J -- Tidak --> N
+    N --> O[Periksa konsistensi / kembali ke dashboard]
+    O --> P[Logout]
+    P --> Q[End Session]
+    Q --> R[Uji URL terlindungi tanpa sesi]
 ```
 
-## Area analisis kode bila diberikan izin
-- Middleware autentikasi dan session expiration.
-- Role-based authorization pada route dan API.
-- Error handling input dan server.
-- Integritas operasi tulis dan audit log.
-- Pengujian unit/branch untuk logika khusus modul.
+## Rencana pemeriksaan kode (hanya bila akses tersedia)
+| Area kode | Cabang yang dianalisis | Bukti yang diperlukan |
+|---|---|---|
+| Handler login | Valid / invalid / field kosong | Source function, test unit, hasil assertion |
+| Middleware sesi | Sesi aktif / kedaluwarsa / logout | Tes request dan branch coverage |
+| Permission/role | Diizinkan / ditolak | Matrix role dan assertion |
+| Validasi form | Data valid / kosong / batas nilai | Unit test dan kasus batas |
+| Transaksi data | Sukses / gagal / rollback | Mock/sandbox, log teredaksi |
 
-**Batasan:** tanpa audit source code, analisis ini merupakan *flow analysis*, bukan bukti cakupan white-box.
+Tanpa akses kode, hanya **black-box functional flow** yang dapat dinilai. Jangan membuat persentase coverage sebelum instrumentasi dan eksekusi nyata.
