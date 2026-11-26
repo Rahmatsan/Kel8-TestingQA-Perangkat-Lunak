@@ -1,6 +1,8 @@
 # Referensi ISO / IEEE
 
-Nama folder ini mengikuti pola repository contoh kelas, **bukan pernyataan bahwa ada satu standar bernama “ISO Standar IEEE 2026”**.
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
+Nama folder adalah kategori arsip referensi proyek, **bukan nama atau tahun terbit standar resmi IEEE/ISO**.
 
 Referensi metodologi yang digunakan:
 - ISO/IEC/IEEE **29119-3:2021**: dokumentasi pengujian perangkat lunak (test plan, case, result/report).

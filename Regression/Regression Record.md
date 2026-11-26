@@ -1,5 +1,7 @@
 # Regression Record GPX
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 Setelah perbaikan defect, penguji mengulang kasus yang gagal dan minimal satu alur terkait dari login hingga logout. Perlu dicatat baseline atau commit aplikasi, bukan hanya tanggal.
 
 | Tanggal | Versi/Deploy GPX | Bug ID | TC yang diulang | Hasil sebelum | Hasil setelah | Evidence | Penguji |

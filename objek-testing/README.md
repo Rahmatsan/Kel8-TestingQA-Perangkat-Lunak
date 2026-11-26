@@ -1,5 +1,7 @@
 # Objek Pengujian: GPX
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 **Nama:** GPX (Gudang Pembangunan Excellence)  
 **URL awal:** https://gudangpembangunan.up.railway.app/login  
 **URL tujuan setelah autentikasi:** https://gudangpembangunan.up.railway.app/dashboard  

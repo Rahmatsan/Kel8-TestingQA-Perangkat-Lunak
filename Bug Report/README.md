@@ -1,5 +1,7 @@
 # Bug Report GPX
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 Dokumen induk dan template defect ada di [04_Bug_Report.md](../Hasil-Dokumentasi%20testing/04_Bug_Report.md). Belum ada defect dari eksekusi aktual yang bisa dikonfirmasi.
 
 | Bug ID | TC ID | Severity | Actual | Expected | Bukti | Status |

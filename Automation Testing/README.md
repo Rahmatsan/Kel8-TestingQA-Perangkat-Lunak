@@ -1,6 +1,8 @@
 # Automation Testing GPX (rancangan aman)
 
-Kelompok 5 memiliki contoh Playwright, Postman, dan k6. Pada proyek GPX, otomasi **belum dijalankan** karena akun pengujian, izin, endpoint resmi, dan lingkungan sandbox belum ditetapkan.
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
+Otomatisasi GPX direncanakan menggunakan Playwright untuk pengujian antarmuka, Postman untuk API, dan k6 untuk performa pada lingkungan yang diizinkan. Pengujian tersebut **belum dijalankan** karena akun pengujian, izin, endpoint resmi, dan sandbox belum ditetapkan.
 
 Isi folder:
 - `playwright/`: smoke test publik pada login, tanpa autentikasi atau operasi tulis.

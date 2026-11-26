@@ -1,5 +1,7 @@
 # Log Konsultasi Testing dan QA
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 Isi hanya setelah konsultasi benar-benar berlangsung. Informasi berikut sengaja dikosongkan agar tidak merekayasa pertemuan dengan dosen.
 
 | Tanggal | Media / pertemuan | Materi dibahas | Masukan dosen | Tindak lanjut | Status |

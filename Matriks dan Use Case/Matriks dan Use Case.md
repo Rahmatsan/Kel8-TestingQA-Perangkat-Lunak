@@ -1,5 +1,7 @@
 # Matriks Role dan Use Case (Rancangan GPX)
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 ## Aktor
 - **Pengguna terautentikasi:** memakai fitur sesuai pemberian akses.
 - **Admin/pengelola:** mengelola fitur tertentu bila role tersebut tersedia dan diizinkan dalam scope.

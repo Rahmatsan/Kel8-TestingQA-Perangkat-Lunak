@@ -1,5 +1,7 @@
 # Software Testing & Quality Assurance: GPX
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 **Kelompok 8 · Teknik Informatika · Semester 7 · Universitas Pamulang**
 
 Repository ini menyimpan perencanaan dan dokumentasi pengujian aplikasi web **GPX (Gudang Pembangunan Excellence)**, mengikuti materi mata kuliah Testing dan QA Perangkat Lunak (Pertemuan 1–16). Susunan dan jenis dokumen terinspirasi dari contoh repository kelas, dengan isi pengujian yang disesuaikan ke GPX.

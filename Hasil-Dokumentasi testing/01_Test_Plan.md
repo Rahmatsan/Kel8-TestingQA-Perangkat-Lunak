@@ -1,5 +1,7 @@
 # 01. Software Test Plan (STP): Pengujian E2E GPX
 
+**Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
+
 **Dokumen:** STP-GPX-01 | **Versi:** 1.1 | **Tanggal revisi:** 26 November 2026  
 **Mata kuliah:** Testing dan QA Perangkat Lunak | **Kelompok:** 8  
 **Objek:** https://gudangpembangunan.up.railway.app/dashboard  
