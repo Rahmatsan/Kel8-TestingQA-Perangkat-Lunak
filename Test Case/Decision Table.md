@@ -1,5 +1,7 @@
 # Decision Table GPX (Rancangan)
 
+**Konteks:** Dokumentasi Testing dan QA E2E GPX Kelompok 8.
+
 ## DT-01 Autentikasi
 Y = ya, T = tidak, - = tidak berpengaruh.
 

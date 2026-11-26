@@ -1,3 +1,4 @@
+// Dokumentasi pengujian GPX Kelompok 8. Belum merupakan hasil eksekusi QA.
 const { test, expect } = require('@playwright/test');
 
 // Pengujian observasional pada halaman publik; tidak login atau memodifikasi data.

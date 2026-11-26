@@ -1,5 +1,7 @@
 # System Flowchart: Navigasi dan Validasi Modul GPX
 
+**Konteks:** Dokumentasi Testing dan QA E2E GPX Kelompok 8.
+
 Diagram berlaku sebagai model umum untuk fitur dalam scope. Jika menu tidak punya form edit, pengujian tulis ditandai N/A.
 
 ```mermaid

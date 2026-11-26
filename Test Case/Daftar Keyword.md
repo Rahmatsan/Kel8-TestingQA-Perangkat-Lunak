@@ -1,5 +1,7 @@
 # Keyword-driven Testing GPX
 
+**Konteks:** Dokumentasi Testing dan QA E2E GPX Kelompok 8.
+
 Penggunaan istilah aksi berulang ini terinspirasi pendekatan keyword-driven pada ISO/IEC/IEEE 29119-5:2024. Dokumen ini tidak mengklaim sertifikasi atau conformance standar.
 
 | Keyword | Parameter | Aksi | Kondisi selesai |

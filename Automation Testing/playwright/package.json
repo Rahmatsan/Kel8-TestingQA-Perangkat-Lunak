@@ -1,1 +1,12 @@
-{"name":"gpx-qa-smoke","version":"1.0.0","private":true,"scripts":{"test":"playwright test"},"devDependencies":{"@playwright/test":"^1.56.0"}}
+{
+  "name": "gpx-qa-smoke",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  },
+  "description": "Konfigurasi smoke test halaman publik GPX untuk tugas Testing dan QA Kelompok 8"
+}

@@ -4,7 +4,7 @@
 
 **Kelompok 8 · Teknik Informatika · Semester 7 · Universitas Pamulang**
 
-Repository ini menyimpan perencanaan dan dokumentasi pengujian aplikasi web **GPX (Gudang Pembangunan Excellence)**, mengikuti materi mata kuliah Testing dan QA Perangkat Lunak (Pertemuan 1–16). Susunan dan jenis dokumen terinspirasi dari contoh repository kelas, dengan isi pengujian yang disesuaikan ke GPX.
+Repository ini menyimpan perencanaan dan dokumentasi pengujian aplikasi web **GPX (Gudang Pembangunan Excellence)**, mengikuti materi mata kuliah Testing dan QA Perangkat Lunak (Pertemuan 1–16). Struktur dokumentasi dibagi berdasarkan tahapan perencanaan, desain, pelaksanaan, pelaporan defect, dan evaluasi hasil pengujian GPX.
 
 **Objek:** https://gudangpembangunan.up.railway.app/dashboard  
 **Batas E2E:** mulai pada Login Page, selesai pada Logout / End Session.

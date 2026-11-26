@@ -1,3 +1,4 @@
+// Dokumentasi pengujian GPX Kelompok 8. Belum merupakan hasil eksekusi QA.
 const { defineConfig } = require('@playwright/test');
 module.exports = defineConfig({
   testDir: './tests',
