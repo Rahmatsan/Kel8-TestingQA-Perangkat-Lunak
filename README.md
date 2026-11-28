@@ -1,4 +1,4 @@
-# Software Testing & Quality Assurance: GPX
+# Software Testing & Quality: GPX
 
 **Dokumentasi:** Pengujian E2E GPX · Kelompok 8 · Revisi 26 November 2026
 
