@@ -17,11 +17,23 @@ Repository ini menyimpan perencanaan dan dokumentasi pengujian aplikasi web **GP
 | Test Scenario, Case dan Decision Table | Disiapkan |
 | Rancangan use case, alur dan white-box | Disiapkan, belum diuji kode |
 | Automation | Contoh smoke test tersedia, belum dieksekusi |
-| Bukti screenshot | Belum dikumpulkan |
+| Bukti screenshot Login publik | 2 tangkapan layar tersedia (desktop dan mobile) |
 | Pengujian E2E internal | NOT RUN (perlu akun/izin) |
 | PASS/FAIL | Belum tersedia |
 
 Terdapat **105 test case kandidat**. Jumlah tersebut bukan persyaratan minimum dari dosen, dan beberapa modul/aturan perlu divalidasi lebih dahulu setelah login.
+
+## Dokumentasi visual: halaman Login publik
+
+![Tampilan Login GPX desktop](Hasil-Dokumentasi%20testing/screenshots/GPX-LOGIN-public-desktop.png)
+
+*Gambar 1. Tampilan halaman Login GPX di browser desktop. Diambil dari halaman publik, tanpa autentikasi.*
+
+![Tampilan Login GPX resolusi mobile](Hasil-Dokumentasi%20testing/screenshots/GPX-LOGIN-public-mobile.png)
+
+*Gambar 2. Tampilan halaman Login GPX pada viewport sempit dengan user-agent mobile. Gambar ini bukan bukti login sukses.*
+
+Pengujian Dashboard dan modul internal belum dijalankan karena memerlukan akun uji dan izin. Screenshot untuk halaman tersebut tidak ditampilkan sebagai bukti sebelum benar-benar diperoleh.
 
 ## Dokumen utama
 

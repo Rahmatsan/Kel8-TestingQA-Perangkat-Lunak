@@ -13,7 +13,7 @@ GPX adalah aplikasi web yang dipakai untuk menampilkan ringkasan operasional dan
 
 ![Antarmuka Login GPX](../Hasil-Dokumentasi%20testing/screenshots/GPX-LOGIN-public-desktop.png)
 
-*Gambar: Halaman Login publik GPX, tangkapan browser otomatis tanpa masuk ke sistem. Gambar baru tersedia setelah workflow Actions sukses.*
+*Gambar: Halaman Login publik GPX, tangkapan browser otomatis tanpa masuk ke sistem. Bukti sudah tersimpan dalam repository dan belum menyatakan keberhasilan Login.*
 
 ## Fakta yang sudah dapat diperiksa tanpa akun
 Login GPX menampilkan formulir Username dan Password. Akses langsung ke dashboard tanpa sesi memerlukan login.

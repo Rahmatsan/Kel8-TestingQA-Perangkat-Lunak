@@ -1,7 +1,7 @@
 # Bukti visual pengujian GPX
 
 ## Screenshot halaman publik
-Screenshot berikut diambil melalui browser otomatis **dari halaman asli GPX**, tanpa login dan tanpa mengirim kredensial. Proses pengambilan ada di [capture-gpx-public.mjs](../../.github/scripts/capture-gpx-public.mjs) dan [workflow](../../.github/workflows/capture-gpx-public.yml).
+Dua gambar berikut merupakan tangkapan layar halaman Login asli GPX. Gambar diperoleh melalui browser headless tanpa mengirimkan kredensial. Keduanya telah tersimpan di repository. Skrip pengambilan manual tersedia di [capture-gpx-public.mjs](../../.github/scripts/capture-gpx-public.mjs).
 
 | ID | Halaman | Desktop | Mobile | Batasan |
 |---|---|---|---|---|
@@ -9,9 +9,9 @@ Screenshot berikut diambil melalui browser otomatis **dari halaman asli GPX**, t
 
 ![Halaman Login GPX di desktop](GPX-LOGIN-public-desktop.png)
 
-![Halaman Login GPX di perangkat mobile](GPX-LOGIN-public-mobile.png)
+![Halaman Login GPX pada tampilan mobile](GPX-LOGIN-public-mobile.png)
 
-**Perhatian:** tautan gambar baru akan aktif setelah workflow pengambilan screenshot berhasil dan mengunggah kedua file PNG. Jika tidak muncul, lihat status di tab Actions.
+Pengambilan gambar baru dan publikasi berikutnya dilakukan secara manual oleh anggota tim melalui akun GitHub masing-masing. Tidak ada workflow yang membuat commit otomatis.
 
 ## Bukti pengujian internal
-Gambar dashboard sesudah login, modul Training, Consumables, laporan dan Logout hanya dapat dijadikan bukti setelah pengujian sah dengan akun uji. Jangan mengunggah screenshot memuat NIK, identitas karyawan, transaksi asli, token, atau informasi bisnis sensitif. Bukti internal belum tersedia dan status test case terkait tetap NOT RUN.
+Gambar dashboard sesudah login, modul Training, Consumables, laporan, dan Logout hanya dapat dijadikan bukti setelah pengujian sah menggunakan akun uji. Jangan unggah screenshot yang memuat NIK, identitas karyawan, transaksi asli, token, atau informasi sensitif. Bukti internal belum tersedia dan status test case terkait tetap NOT RUN.

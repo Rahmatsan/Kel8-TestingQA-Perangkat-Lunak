@@ -10,6 +10,18 @@
 | Objek | GPX, Gudang Pembangunan Excellence |
 | Status | Rancangan pengujian; belum dijalankan |
 
+## Dokumentasi visual: halaman Login publik
+
+![Tampilan Login GPX desktop](../Hasil-Dokumentasi%20testing/screenshots/GPX-LOGIN-public-desktop.png)
+
+*Gambar 1. Tampilan halaman Login GPX di browser desktop. Diambil dari halaman publik, tanpa autentikasi.*
+
+![Tampilan Login GPX resolusi mobile](../Hasil-Dokumentasi%20testing/screenshots/GPX-LOGIN-public-mobile.png)
+
+*Gambar 2. Tampilan halaman Login GPX pada viewport sempit dengan user-agent mobile. Gambar ini bukan bukti login sukses.*
+
+Pengujian Dashboard dan modul internal belum dijalankan karena memerlukan akun uji dan izin. Screenshot untuk halaman tersebut tidak ditampilkan sebagai bukti sebelum benar-benar diperoleh.
+
 ## 1. Pendahuluan
 GPX memuat informasi operasional lintas fitur yang bergantung pada autentikasi dan kontrol role. Pengujian disusun untuk menilai proses yang dilalui pengguna, mulai dari masuk ke sistem, mengakses dashboard, berinteraksi dengan modul yang tersedia, sampai mengakhiri sesi. Bukan seluruh fungsi boleh diuji di produksi karena sebagian melibatkan data operasional.
 
