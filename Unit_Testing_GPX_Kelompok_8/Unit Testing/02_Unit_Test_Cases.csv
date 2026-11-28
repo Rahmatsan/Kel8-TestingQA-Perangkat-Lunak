@@ -1,0 +1,13 @@
+Test Case ID,Area Kandidat,Objek Fungsi (Isi Setelah Audit Kode),Tipe Uji,Input / Test Data,Expected Result (Validasi Terhadap Spesifikasi),Pre-condition,Actual Result,Status,Tester,Test Date,Evidence / Log
+UT-GPX-001,Validasi Login,,Normal,Username dan password terisi,Validasi kelengkapan berhasil tanpa menguji autentikasi,Sumber dan kontrak fungsi diketahui,,NOT RUN,,,
+UT-GPX-002,Validasi Login,,Invalid,Username kosong,Validasi kelengkapan menolak input,Sumber dan kontrak fungsi diketahui,,NOT RUN,,,
+UT-GPX-003,Validasi Login,,Invalid,Password kosong,Validasi kelengkapan menolak input,Sumber dan kontrak fungsi diketahui,,NOT RUN,,,
+UT-GPX-004,Filter tanggal,,Normal,Tanggal awal sebelum tanggal akhir,Validasi rentang menerima interval yang diizinkan,Aturan tanggal terkonfirmasi,,NOT RUN,,,
+UT-GPX-005,Filter tanggal,,Boundary,Tanggal awal sama dengan tanggal akhir,Hasil mengikuti aturan interval sebenarnya,Aturan tanggal terkonfirmasi,,NOT RUN,,,
+UT-GPX-006,Filter tanggal,,Invalid,Tanggal awal sesudah tanggal akhir,Validasi menolak rentang tidak sah,Aturan tanggal terkonfirmasi,,NOT RUN,,,
+UT-GPX-007,Consumables,,Normal,Stok awal 100 dan keluar 20,Saldo menjadi 80 hanya bila formula adalah saldo = awal - keluar,Formula stok terkonfirmasi,,NOT RUN,,,
+UT-GPX-008,Consumables,,Boundary,Qty keluar 0,Perilaku sesuai aturan transaksi nol,Aturan qty terkonfirmasi,,NOT RUN,,,
+UT-GPX-009,Consumables,,Invalid,Qty keluar negatif,Ditolak apabila aturan transaksi mensyaratkan qty positif,Aturan qty terkonfirmasi,,NOT RUN,,,
+UT-GPX-010,Rekap absensi,,Normal,Data dummy kehadiran lengkap,Agregasi sesuai rumus dan definisi periode,Formula absensi terkonfirmasi,,NOT RUN,,,
+UT-GPX-011,Rekap absensi,,Edge,Data periode kosong,Dikelola sesuai kontrak fungsi tanpa pembagian nol,Perilaku data kosong terkonfirmasi,,NOT RUN,,,
+UT-GPX-012,Validasi input modul,,Invalid,Input salah format atau melebihi batas,Validasi sesuai ketentuan field aktual,Field dan batasan terkonfirmasi,,NOT RUN,,,
